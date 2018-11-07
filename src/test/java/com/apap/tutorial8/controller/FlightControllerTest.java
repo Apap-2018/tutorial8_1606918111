@@ -1,11 +1,11 @@
-package com.apap.tutorial6.controller;
+package com.apap.tutorial8.controller;
 
 import java.sql.Date;
 import java.util.Optional;
 
-import com.apap.tutorial6.model.FlightModel;
-import com.apap.tutorial6.service.FlightService;
-import com.apap.tutorial6.service.PilotService;
+import com.apap.tutorial8.model.FlightModel;
+import com.apap.tutorial8.service.FlightService;
+import com.apap.tutorial8.service.PilotService;
 
 import org.hamcrest.Matchers;
 import org.junit.Test;

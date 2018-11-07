@@ -1,9 +1,9 @@
-package com.apap.tutorial6.controller;
+package com.apap.tutorial8.controller;
 
 import java.util.Optional;
 
-import com.apap.tutorial6.model.PilotModel;
-import com.apap.tutorial6.service.PilotService;
+import com.apap.tutorial8.model.PilotModel;
+import com.apap.tutorial8.service.PilotService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,11 +21,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PilotController {
     @Autowired
     private PilotService pilotService;
-
-    @RequestMapping("/")
-    private String home() {
-        return "home";
-    }
 
     @RequestMapping(value = "/pilot/add", method = RequestMethod.GET)
     private String add(Model model) {

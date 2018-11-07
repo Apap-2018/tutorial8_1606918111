@@ -1,8 +1,8 @@
-package com.apap.tutorial6.repository;
+package com.apap.tutorial8.repository;
 
 import java.util.Optional;
 
-import com.apap.tutorial6.model.FlightModel;
+import com.apap.tutorial8.model.FlightModel;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

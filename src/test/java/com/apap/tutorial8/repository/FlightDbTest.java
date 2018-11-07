@@ -1,12 +1,12 @@
-package com.apap.tutorial6.repository;
+package com.apap.tutorial8.repository;
 
 import static org.junit.Assert.assertThat;
 
 import java.sql.Date;
 import java.util.Optional;
 
-import com.apap.tutorial6.model.FlightModel;
-import com.apap.tutorial6.model.PilotModel;
+import com.apap.tutorial8.model.FlightModel;
+import com.apap.tutorial8.model.PilotModel;
 
 import org.hamcrest.Matchers;
 import org.junit.Test;

@@ -1,13 +1,13 @@
-package com.apap.tutorial6.controller;
+package com.apap.tutorial8.controller;
 
 import java.util.ArrayList;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.apap.tutorial6.model.FlightModel;
-import com.apap.tutorial6.model.PilotModel;
-import com.apap.tutorial6.service.FlightService;
-import com.apap.tutorial6.service.PilotService;
+import com.apap.tutorial8.model.FlightModel;
+import com.apap.tutorial8.model.PilotModel;
+import com.apap.tutorial8.service.FlightService;
+import com.apap.tutorial8.service.PilotService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
